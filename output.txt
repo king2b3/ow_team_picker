@@ -1,0 +1,42 @@
+BEHOLD YOUR WINNING LINEUP
+########################
+MAP 1
+	Tank 1    : akihikosanada playing zarya
+	Tank 2    : npc playing reinhardt
+	DPS 1     : kittybaka playing junkrat
+	DPS 2     : magpie playing sombra
+	Support 1 : vengan playing moira
+	Support 2 : meesh playing brigitte
+########################
+MAP 2
+	Tank 1    : strk916 playing dva
+	Tank 2    : vengan playing sigma
+	DPS 1     : magpie playing hanzo
+	DPS 2     : akihikosanada playing reaper
+	Support 1 : logro playing ana
+	Support 2 : kittybaka playing brigitte
+########################
+MAP 3
+	Tank 1    : strk916 playing roadhog
+	Tank 2    : npc playing zarya
+	DPS 1     : kittybaka playing reaper
+	DPS 2     : magpie playing sombra
+	Support 1 : meesh playing moira
+	Support 2 : logro playing mercy
+########################
+MAP 4
+	Tank 1    : npc playing zarya
+	Tank 2    : logro playing wrecking ball
+	DPS 1     : meesh playing torbjorn
+	DPS 2     : vengan playing solider
+	Support 1 : strk916 playing moira
+	Support 2 : akihikosanada playing mercy
+########################
+	logro played 3
+	npc played 3
+	kittybaka played 3
+	strk916 played 3
+	meesh played 3
+	vengan played 3
+	akihikosanada played 3
+	magpie played 3

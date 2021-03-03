@@ -1,3 +1,6 @@
+from main import roles
+import random
+
 class Player():
     def __init__(self, name:str, roles:dict, heroes:dict):
         """
@@ -39,9 +42,11 @@ class Player():
     def returnPlayer(self, role) -> str:
         """Returns a hero choice off of preference
         """
-        #if self.maps_played == 2:
-        #    return False
-        ...
+        temp_hero = None
+        while temp_hero not in roles[role]:
+            temp_hero = random.choice(self.heroes_list)
+        return temp_hero       
+
         
 
 def main():
@@ -49,23 +54,28 @@ def main():
     import random
     from main import roles
     
-    t = Player("npc", GOML.NPC_ROLES, GOML.NPC_HEROES)
+    
     # choses role
-   
+    t = Player("logro", GOML.LOGRO_ROLES, GOML.LOGRO_HEROES)
     
     temp_role = random.choice(t.roles_list)
     print(f"role picked {temp_role}")
 
 
-    temp_hero = None
-    while temp_hero not in roles[temp_role]:
-        temp_hero = random.choice(t.heroes_list)
-    print(f"Hero picked {temp_hero}")       
-
-    
+    print(t.returnPlayer(temp_role))
 
 
-    
+    map1 = {
+        "MT": Player("logro", GOML.LOGRO_ROLES, GOML.LOGRO_HEROES),
+        "OT": None,
+        "HS": None,
+        "PJ": None,
+        "MS": None,
+        "FS": None
+    }
+
+    print(map1["MT"].name)
+
 
 if __name__ == "__main__":
     main()
